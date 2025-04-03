@@ -14,4 +14,6 @@ def ConnectToChess():
 
   button = driver.find_element(by=By.CSS_SELECTOR,value=".cc-button-component.cc-button-primary.cc-button-xx-large.cc-bg-primary.cc-button-full")
   button.click()
+  
+  return driver
 
